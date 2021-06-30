@@ -13,6 +13,11 @@
 		CF0E48A2268C20DA00588D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0E48A0268C20DA00588D0B /* Main.storyboard */; };
 		CF0E48A4268C20DB00588D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0E48A3268C20DB00588D0B /* Assets.xcassets */; };
 		CF0E48A7268C20DB00588D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0E48A5268C20DB00588D0B /* LaunchScreen.storyboard */; };
+		CF0E48B0268C219500588D0B /* CellProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E48AE268C219500588D0B /* CellProduct.swift */; };
+		CF0E48B1268C219500588D0B /* CellProduct.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF0E48AF268C219500588D0B /* CellProduct.xib */; };
+		CF0E48B3268C25AE00588D0B /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CF0E48B2268C25AE00588D0B /* right-arrow.png */; };
+		CF0E48B7268C333800588D0B /* Wall-SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E48B6268C333800588D0B /* Wall-SetViewController.swift */; };
+		CF0E48BB268C585C00588D0B /* Contact_UsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0E48BA268C585C00588D0B /* Contact_UsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CF0E48A3268C20DB00588D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF0E48A6268C20DB00588D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF0E48A8268C20DB00588D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0E48AE268C219500588D0B /* CellProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProduct.swift; sourceTree = "<group>"; };
+		CF0E48AF268C219500588D0B /* CellProduct.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellProduct.xib; sourceTree = "<group>"; };
+		CF0E48B2268C25AE00588D0B /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		CF0E48B6268C333800588D0B /* Wall-SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wall-SetViewController.swift"; sourceTree = "<group>"; };
+		CF0E48BA268C585C00588D0B /* Contact_UsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_UsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,15 @@
 				CF0E489A268C20DA00588D0B /* AppDelegate.swift */,
 				CF0E489C268C20DA00588D0B /* SceneDelegate.swift */,
 				CF0E489E268C20DA00588D0B /* ViewController.swift */,
+				CF0E48AE268C219500588D0B /* CellProduct.swift */,
+				CF0E48B6268C333800588D0B /* Wall-SetViewController.swift */,
+				CF0E48AF268C219500588D0B /* CellProduct.xib */,
 				CF0E48A0268C20DA00588D0B /* Main.storyboard */,
 				CF0E48A3268C20DB00588D0B /* Assets.xcassets */,
+				CF0E48B2268C25AE00588D0B /* right-arrow.png */,
 				CF0E48A5268C20DB00588D0B /* LaunchScreen.storyboard */,
 				CF0E48A8268C20DB00588D0B /* Info.plist */,
+				CF0E48BA268C585C00588D0B /* Contact_UsViewController.swift */,
 			);
 			path = OldPhone_Advertising;
 			sourceTree = "<group>";
@@ -125,7 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0E48B3268C25AE00588D0B /* right-arrow.png in Resources */,
 				CF0E48A7268C20DB00588D0B /* LaunchScreen.storyboard in Resources */,
+				CF0E48B1268C219500588D0B /* CellProduct.xib in Resources */,
 				CF0E48A4268C20DB00588D0B /* Assets.xcassets in Resources */,
 				CF0E48A2268C20DA00588D0B /* Main.storyboard in Resources */,
 			);
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF0E489F268C20DA00588D0B /* ViewController.swift in Sources */,
+				CF0E48B0268C219500588D0B /* CellProduct.swift in Sources */,
 				CF0E489B268C20DA00588D0B /* AppDelegate.swift in Sources */,
+				CF0E48BB268C585C00588D0B /* Contact_UsViewController.swift in Sources */,
+				CF0E48B7268C333800588D0B /* Wall-SetViewController.swift in Sources */,
 				CF0E489D268C20DA00588D0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
